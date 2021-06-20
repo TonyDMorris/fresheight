@@ -1,10 +1,10 @@
 ## What is this ?
 
-within this repo there are 2 git submodules which comprise the producer and consumer of the application.
-
+within this repo there are 2 go modules which comprise the producer and consumer of the application.
+----
 ## How to demo?
 
-to demo both applications running together follow these instructions 
+to demo both applications running together follow these instructions or read the next section to run with docker-compose 
 
 
 ```bash
@@ -33,19 +33,23 @@ expected output
  "Interacted": 813878 
  "Click-Through": 895521 
 ```
+----
 
-## demo with docker compose 
+## Demo with docker compose 
 
 ```bash
 docker-compose up 
 ```
+----
 
-## dependencies 
+## Dependencies 
 
 github.com/google/uuid
 
 is used to generate uuids for the events everything else is provided by the standard lib 
 
-## tests
-Unfortunatley I wasn't able to implement any tests due to personal time constraints for the test but I will be happy to talk about what tests I would write and implement hopefully in the next step of the interview .
+
+----
+## Tests
+Unfortunately I wasn't able to implement any tests due to personal time constraints for the test but I will be happy to talk about what tests I would write and implement hopefully in the next step of the interview .
 
