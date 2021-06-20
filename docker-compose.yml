@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  producer:
+    build: ./producer
+    command: --number-of-groups=1000000 --batch-size=5000 --interval=1 --output-directory=../events
+    volumes:
+        - events:/events 
+
+  consumer:
+    build: ./consumer
+    command: --input-directory=../events
+    volumes:
+        - events:/events 
+
+
+
+
+
+     
+volumes:
+ events:
