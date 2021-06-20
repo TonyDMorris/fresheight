@@ -1,10 +1,11 @@
 ## What is this ?
 
-within this repo there are 2 go modules which comprise the producer and consumer of the application.
+Within this repo there are 2 go modules which comprise the producer and consumer of the application.
+
 ----
 ## How to demo?
 
-to demo both applications running together follow these instructions or read the next section to run with docker-compose 
+To demo both applications running together follow these instructions or read the next section to run with docker-compose 
 
 
 ```bash
@@ -44,9 +45,7 @@ docker-compose up
 
 ## Dependencies 
 
-github.com/google/uuid
-
-is used to generate uuids for the events everything else is provided by the standard lib 
+github.com/google/uuid (used to generate uuids for the events everything else is provided by the standard lib) 
 
 
 ----
