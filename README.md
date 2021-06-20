@@ -27,12 +27,17 @@ cd ../consumer
 go run cmd/main.go --input-directory=../events
 ````
 
-
 expected output 
 ```bash
 "Viewed": 8140848 
  "Interacted": 813878 
  "Click-Through": 895521 
+```
+
+## demo with docker compose 
+
+```bash
+docker-compose up 
 ```
 
 ## dependencies 
